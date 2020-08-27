@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Forms</title>
+</head>
+<body>
+	<div id="form">
+		<h2>Login</h2>
+			<form action="/action_page.php" method="POST">
+				<label for="luser">Username:</label><br>
+				<input type="text" id="user" name="user" placeholder="New User"><br><br>
+
+				<label for="lpass">Password:</label><br>
+				<input type="password" id="password" name="password" placeholder="Password"><br><br>
+			</form>
+
+		<h2>New User</h2>
+
+		<form action="/action_page.php" method="POST">
+
+			<label for="fname">First name:</label><br>
+			<input type="text" id="fname" name="fname" placeholder="Name"><br><br>
+
+			<label for="lname">Last name:</label><br>
+			<input type="text" id="lname" name="lname" placeholder="Last Name"><br><br>
+
+			<label for="lmail">Email:</label><br>
+			<input type="email" id="email" name="email" placeholder="Email"><br><br>
+
+			<label for="lgender">Please select your gender:</label><br>
+			<input type="radio" id="male" name="gender" value="male">
+			<label for="male">Male</label><br>
+			<input type="radio" id="female" name="gender" value="female">
+			<label for="female">Female</label><br>
+			<input type="radio" id="other" name="gender" value="other">
+			<label for="other">Other</label><br><br>
+
+			<label for="lbirthday">Birthday:</label><br>
+  			<input type="date" id="birthday" name="birthday"><br><br>
+
+			<label for="lpets">Number of Pets:</label><br>
+			<input type="number" id="quantity" name="quantity" min="0" max="999"> <br> <br>
+
+			<label for="lgender">Skills:</label><br>
+			<input type="checkbox" id="html" name="html" value="html">
+		  	<label for="vehicle1"> HTML </label><br>
+		  	<input type="checkbox" id="css" name="css" value="css">
+		  	<label for="vehicle2"> CSS </label><br>
+		  	<input type="checkbox" id="javascript" name="javascript" value="javascript">
+		  	<label for="vehicle3"> Javascript</label><br>
+		  	<input type="checkbox" id="react" name="react" value="react">
+		  	<label for="vehicle3"> React</label><br>
+		  	<input type="checkbox" id="java" name="java" value="java">
+		  	<label for="vehicle3"> Java</label><br>
+		  	<input type="checkbox" id="python" name="python" value="python">
+		  	<label for="vehicle3"> Python</label><br>
+		  	<br> 
+
+			<label for="luser">Username:</label><br>
+			<input type="text" id="user" name="user" placeholder="New User"><br><br>
+
+			<label for="lpass">Password:</label><br>
+			<input type="password" id="password" name="password" placeholder="Password"><br><br>
+
+			<label for="lrpass">Repeat Password:</label><br>
+			<input type="password" id="repeatpassword" name="repeatpassword" placeholder="Repeat Password"><br><br>
+
+			<label for="lmyfile">Add user profile photo:</label><br>
+  			<input type="file" id="myfile" name="myfile"><br><br>
+
+			<input type="reset" value="Reset">			 
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+</body>
+</html>
